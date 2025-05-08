@@ -2,11 +2,12 @@
 
 import React, { createContext, useState, useContext, useEffect, ReactNode, useCallback } from 'react';
 
-interface User {
+// Added export here
+export interface User {
   id: number; email: string; name: string; picture?: string;
 }
 
-export interface Organization { // Export for use in other components
+export interface Organization { // Already exported
   id: number; name: string; wyzio_id?: string;
 }
 
