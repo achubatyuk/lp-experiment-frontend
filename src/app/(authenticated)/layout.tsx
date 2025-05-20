@@ -59,7 +59,7 @@ export default function AuthenticatedLayout({ children }: { children: React.Reac
           handleLogout={handleLogout}
         />
         
-        <main className="flex-1 items-start gap-4 px-4 pb-4 pt-16 sm:px-6 md:gap-8 bg-muted/10">
+        <main className="flex-1 items-start gap-4 px-4 pb-4 pt-6 sm:px-6 md:gap-8 bg-muted/10"> {/* Changed pt-16 to pt-6 */}
           {children}
         </main>
       </div>
